@@ -1,0 +1,5 @@
+Extra Credit Feature - Nice CSS
+
+I believe that I implemented a nice results page. The look is very simple and sleek and allows users to see all the information about the given player. Once a user makes a query for a player and the results page loads, they are able to clearly see if they have the right player given their name and the team that their on is on the page. Also, I accounted for change in browser sizes so if a user changes the size of the browser, everything should scale accordingly, including the results table.
+
+Initially i did not know/forgot how to do more complex css styling, so most of my time was spent scouring the internet on little tricks and bits of code that would make my page exactly how i wanted it to be.
