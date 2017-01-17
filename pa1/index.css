@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+body{
+    background-color: lightgrey;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#banner {
+    height: 100%;
+    background-image: url('http://wallpapercave.com/wp/Dina4jH.jpg');
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#banner-image {
+    height: 120px;
+    width: 250px;
+}
+
+#footer {
+    padding: 1%;
+}
+
+#footer, #main-page {
+    text-align: center;
+}
+
+h1, h2 {
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.jumbotron {
+    float:left;
+    width:75%;
+    height:80px;
+}
+
+.jumbotron, #search-bar, #footer {
+    color: whitesmoke;
+    font-style: italic;
+    font-family: Helvetica Neue, sans-serif;
+    background-color: black;
+}
+
+main, #search-bar, #search-bar > .form  {
+    position: absolute;
+}
+
+#main-page {
+    background: url('../chicago-bulls-nba-action_1920x1200_112-wide.gif') center;
+    background-size: cover;
+    color:white;
+    margin: 0 auto;
+    padding: 14%;
+}
+
+#main-page > h1 {
+    font-size: 100px;
+    margin-bottom:0;
+}
+
+#main-page > p {
+    font-size: 36px;
+}
+
+#playerName {
+    width: 200px;
+}
+
+#search-bar {
+    height:80px;
+    float:right;
+    overflow: auto;
+    right:0px;
+    top:124px;
+    width:25%;
+}
+
+#search-bar > .form {
+    left:15px;
+    top:30px;
+}
+
+table.results, h1, h2, #banner, body{
+    width: 100%;
+}
