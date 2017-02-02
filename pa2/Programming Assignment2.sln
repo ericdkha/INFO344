@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Programming Assignment2", "Programming Assignment2\Programming Assignment2.ccproj", "{67332C9A-E876-4F50-BC61-6DF27737E118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{4FEEACDD-1D96-444B-92F4-9D1B2C52E07D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67332C9A-E876-4F50-BC61-6DF27737E118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67332C9A-E876-4F50-BC61-6DF27737E118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67332C9A-E876-4F50-BC61-6DF27737E118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67332C9A-E876-4F50-BC61-6DF27737E118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FEEACDD-1D96-444B-92F4-9D1B2C52E07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEEACDD-1D96-444B-92F4-9D1B2C52E07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEEACDD-1D96-444B-92F4-9D1B2C52E07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEEACDD-1D96-444B-92F4-9D1B2C52E07D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
