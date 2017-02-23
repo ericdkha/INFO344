@@ -16,9 +16,6 @@
     margin: 0 auto;
 }
 
-.urlbox {
-    
-}
 
 .col-xs-12, .col-sm-8 {
     float:none;
@@ -31,7 +28,7 @@
     font-size:100px;
 }
 
-#last-ten, error-url {
+#last-ten, #error-url {
     text-align:left;
     width:100%;
 }

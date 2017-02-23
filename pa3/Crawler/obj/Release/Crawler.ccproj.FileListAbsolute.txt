@@ -117,10 +117,10 @@ C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\obj\Rele
 C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\obj\Release\WorkerRole1\zh-Hant\Microsoft.Data.OData.resources.dll
 C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\obj\Release\WorkerRole1\zh-Hant\Microsoft.Data.Services.Client.resources.dll
 C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\obj\Release\WorkerRole1\zh-Hant\System.Spatial.resources.dll
-C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\admin.asmx
-C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\dashboard.html
-C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\packages.config
-C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\scripts\crawler.js
-C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\scripts\dashboard.css
-C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\Service References\info344test2AzureStorage\ConnectedService.json
-C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\Web.config
+C:\Users\Eric Kha\documents\visual studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\admin.asmx
+C:\Users\Eric Kha\documents\visual studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\dashboard.html
+C:\Users\Eric Kha\documents\visual studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\packages.config
+C:\Users\Eric Kha\documents\visual studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\scripts\crawler.js
+C:\Users\Eric Kha\documents\visual studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\scripts\dashboard.css
+C:\Users\Eric Kha\documents\visual studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\Service References\info344test2AzureStorage\ConnectedService.json
+C:\Users\Eric Kha\documents\visual studio 2015\Projects\Crawler\Crawler\obj\Release\WebRole1\Web.config

@@ -138,7 +138,7 @@ namespace WorkerRole1
             CloudQueueMessage url = urlQueue.GetMessage();
             if (url != null)
             {
-                urlQueue.DeleteMessage(url);
+                //urlQueue.DeleteMessage(url);
                 // Attempt to crawl through url
                 try
                 {
@@ -152,7 +152,7 @@ namespace WorkerRole1
                 }
                 catch (Exception error) // If an error occurs while crawling, the url gets added to list of erros
                 {
-                    errorUrl.Add(error + ": " + url.AsString);
+                    errorUrl.Add("Error: " + error.HResult + " URL: "+ url.AsString);
                 }
             }
         }

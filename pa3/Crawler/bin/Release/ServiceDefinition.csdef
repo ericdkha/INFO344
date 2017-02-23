@@ -27,7 +27,7 @@
     </Endpoints>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\rcf\Release\WebRole1Content\" />
+        <SourceDirectory path="C:\Users\Eric Kha\documents\visual studio 2015\Projects\Crawler\Crawler\rcf\Release\WebRole1Content\" />
       </Content>
     </Contents>
   </WebRole>
@@ -39,7 +39,7 @@
     </ConfigurationSettings>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\rcf\Release\WorkerRole1Content\" />
+        <SourceDirectory path="C:\Users\Eric Kha\documents\visual studio 2015\Projects\Crawler\Crawler\rcf\Release\WorkerRole1Content\" />
       </Content>
     </Contents>
   </WorkerRole>

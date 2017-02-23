@@ -13,7 +13,7 @@
     <Property name="Configuration" value="Release" />
     <Property name="Platform" value="AnyCPU" />
     <Property name="RoleTargetFramework" value="v4.5.2" />
-    <Property name="OutputDir" value="C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\obj\Release\WorkerRole1\" />
+    <Property name="OutputDir" value="C:\Users\Eric Kha\documents\visual studio 2015\Projects\Crawler\Crawler\obj\Release\WorkerRole1\" />
     <Property name="EntryPoint" value="WorkerRole1.dll" />
     <Property name="SourceDir" value="" />
     <Property name="SitePhysicalPath" value="" />

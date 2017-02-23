@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Crawler" generation="1" functional="0" release="0" Id="d3d75523-35f4-4596-8a06-6810f9659b59" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Crawler" generation="1" functional="0" release="0" Id="385d0ab6-5a99-44af-8744-8b1ca4ec0dab" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="CrawlerGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -102,7 +102,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="WebRole1" generation="1" functional="0" release="0" software="C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\csx\Release\roles\WebRole1" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="-1" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
+          <role name="WebRole1" generation="1" functional="0" release="0" software="C:\Users\Eric Kha\documents\visual studio 2015\Projects\Crawler\Crawler\csx\Release\roles\WebRole1" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="-1" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Endpoint1" protocol="http" portRanges="80" />
             </componentports>
@@ -124,7 +124,7 @@
           </sCSPolicy>
         </groupHascomponents>
         <groupHascomponents>
-          <role name="WorkerRole1" generation="1" functional="0" release="0" software="C:\Users\Eric Kha\Documents\Visual Studio 2015\Projects\Crawler\Crawler\csx\Release\roles\WorkerRole1" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
+          <role name="WorkerRole1" generation="1" functional="0" release="0" software="C:\Users\Eric Kha\documents\visual studio 2015\Projects\Crawler\Crawler\csx\Release\roles\WorkerRole1" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <settings>
               <aCS name="APPINSIGHTS_INSTRUMENTATIONKEY" defaultValue="" />
               <aCS name="info344test2_AzureStorageConnectionString" defaultValue="" />
@@ -154,9 +154,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="d91b9f1b-159e-4a2a-8617-ddb060965386" ref="Microsoft.RedDog.Contract\ServiceContract\CrawlerContract@ServiceDefinition">
+    <implementation Id="6b343811-8e6a-4ff7-a497-35e4a3d9e8fe" ref="Microsoft.RedDog.Contract\ServiceContract\CrawlerContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="3743c43d-c5f0-4606-9435-b45425e532d9" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="8246f89b-8c02-40e8-beab-5b298f78c7b9" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/Crawler/CrawlerGroup/WebRole1:Endpoint1" />
           </inPort>
