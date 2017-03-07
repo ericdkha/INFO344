@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Query Suggestion</title>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/search-bar.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="scripts/index.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="jumbotron">
+        <a href="http://idek.cloudapp.net/dashboard.html" class="btn btn-default dash">Crawler Dashboard</a>
+        <button class="btn btn-danger cache" id="cacheButton">Clear Cache</button>
+        <img  id="coogle "src="http://h5.topstory.io/rucoogle/img/coogle.png" alt="coogle" />
+        <img id="pug" src="http://logo.pizza/img/pug-icon/pug-icon.png" alt="pug"/>
+    </div>
+    <div id="search-container">
+        <input id="search" type="text" placeholder="Enter your query here" />
+        <button class="btn btn-success" type="button" id="search-button">Search</button>
+    </div>
+
+    <div id="results"><!-- query suggestions go here --></div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-8" id="searchResults">
+            <!-- title results go here -->
+        </div>
+        <div class="col-xs-12 col-md-4" id="playerData">
+            <div class='panel panel-default'>
+                <div class='panel-heading' id='playerName'></div>
+                <div class='panel-body' id="playerStats">
+                    <!-- player stats goes here -->
+                </div>
+            </div>
+            <!-- data goes here -->
+        </div>
+    </div>
+    <div class="ad">
+        <script type="text/javascript">
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"ericdk13","width":550,"height":250,"sid":"Chitika Default"};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+        </script>
+        <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+    </div>
+    <br>
+    <div id="footer">
+        <p>2017 Eric Kha, All Rights Reserved</p>
+    </div>
+</body>
+</html>

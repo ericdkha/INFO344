@@ -1,0 +1,146 @@
+﻿<!--A dashboard that displays information such as the health and state of the crawler. Information includes status, #urls, last 10, etc...
+    as well as options for the user to change the current state of the cralwer and the search urls for their title-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crawler</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts/crawler.js"></script>
+</head>
+<body>
+    <body onload="loop();">
+        <br />
+        <br />
+        <a href="http://idek.cloudapp.net/index.html" class="btn btn-default wiki">Go Search!</a>
+        <div class="jumbotron" style="color:white;">
+            <div class="container">
+                <h1>Crawler Dashboard</h1>
+                <p>This is a Web Crawler that crawls CNN and BleacherReport and this dashboard represents the health and state of the crawler as well as stats about the wiki Trie</p>
+                <div class="row">
+                    <!--<div class="col-xs-12 col-sm-8">
+                        <div class="input-group">
+                            <input type="text" class="form-control" name='s' id='s' placeholder='Enter Url for title'>
+                            <span class="input-group-btn">
+                                <button class="btn btn-success" onclick="GetPageTitle()" type="button" id='search'>Search</button>
+                            </span>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+            <br />
+            <div class="row" style="display:block;">
+                <div class="col-xs-12 col-sm-8" id="resultSet">
+                    <p id="resultSetP"><!-- results go here --></p>
+                </div>
+            </div>
+            <button class="btn btn-success btn-primary btn-lg" onclick="StartCrawler()">Start</button>
+            <button class="btn btn-danger btn-primary btn-lg" onclick="StopCrawler()">Stop</button>
+            <div class="container">
+                <button class="btn btn-danger btn-primary btn-lg" onclick="ClearAll()">Clear All</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Crawler State</div>
+                        <div class="panel-body" id="crawler-state">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">RAM Available</div>
+                        <div class="panel-body" id="ram-available">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">CPU Utilization</div>
+                        <div class="panel-body" id="cpu-utilization">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Size of Queue</div>
+                        <div class="panel-body" id="size-of-queue">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"># of URLs Crawled</div>
+                        <div class="panel-body" id="url-crawled">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"># of Indexed Urls</div>
+                        <div class="panel-body" id="size-of-Indexed">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"># of Items in Trie</div>
+                        <div class="panel-body" id="size-of-trie">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Last Insertion in Trie</div>
+                        <div class="panel-body" id="last-of-trie">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="panel panel-default" style="width:500px;">
+                        <div class="panel-heading">Last Ten Urls</div>
+                        <div class="panel-body" id="last-ten">
+                            <ol class="urls"></ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="panel panel-default" style="width:500px">
+                        <div class="panel-heading">Error Urls</div>
+                        <div class="panel-body" id="error-url">
+                            <ul class="urls"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

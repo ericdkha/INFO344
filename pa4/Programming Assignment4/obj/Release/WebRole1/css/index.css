@@ -1,0 +1,115 @@
+﻿.ad {
+    padding: 10px;
+   text-align:center;
+}
+
+.cache, .dash {
+    position: absolute;
+}
+
+.cache {
+    position: absolute;
+    right:70px;
+    top: 60px;
+}
+
+#coogle {
+    margin:0;
+}
+
+#pug {
+    width: 100px;
+}
+
+.dash {
+    background-color:darkblue;
+    color: white;
+    right: 50px; 
+}
+
+#footer {
+    text-align:center;
+}
+
+html, body {
+    width: 100%;
+}
+
+h1 {
+    text-align:center;
+    font-family: 'Linux Libertine';
+}
+
+h3 {
+
+}
+
+img {
+    display:block;
+    width:20%;
+    height:20%;
+}
+
+img, table {
+    margin: 0 auto;
+}
+
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.panel-heading {
+    font-weight:bold;
+}
+
+#playerData {
+    width:auto;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-right: 0px;
+    padding-right: 10px;
+}
+
+#playerName {
+    color:white;
+    font-size: 36pt;
+    background: center;
+    background-color:lightgray;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#searchResults {
+    margin-left:30px;
+    width:60%;
+}
+
+.resultUrl {
+    color:darkgreen;
+}
+
+table {
+    width: 500px;
+}
+
+
+tr p {
+    padding-left: 15px;
+}
+
+tr:hover {
+    font-weight: bolder; 
+    color: darkred;
+    border-top: 1px solid #22262e;
+    border-bottom: 1px solid #22262e;
+}
+
+tr:nth-child(odd) {
+     background-color:#eee;
+
+}
+tr:nth-child(even) {
+     background-color:#fff;
+
+}

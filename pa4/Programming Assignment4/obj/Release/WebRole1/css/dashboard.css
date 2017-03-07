@@ -1,0 +1,61 @@
+﻿body, .jumbotron {
+    background-color: rgb(0, 26, 51);
+}
+
+.btn-group-lg > .btn, .btn-lg {
+    font-size:30px;
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.col-lg-2 {
+    margin-right:30px;
+}
+.col-xs-12, .col-sm-8, .col-lg-2, body, .jumbotron {
+    margin: 0 auto;
+}
+
+
+.col-xs-12, .col-sm-8 {
+    float:none;
+}
+.container, .jumbotron {
+    text-align:center;
+}
+
+.jumbotron h1 {
+    font-size:100px;
+}
+
+#last-ten, #error-url {
+    text-align:left;
+    width:100%;
+}
+
+.li {
+    margin-bottom: 10px;
+}
+
+.panel-body {
+    width: 150px;
+}
+
+.result {
+    width:100%;
+}
+
+.row {
+    vertical-align:top;
+}
+
+.row, .panel-default {
+    display:inline-block;
+}
+
+.wiki {
+    background-color:gainsboro;
+    color: darkblue;
+    position: absolute;
+    right: 50px; 
+}
