@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Programming_Assignment4" generation="1" functional="0" release="0" Id="261bbda4-91d0-4aba-8b09-de3ba0baa447" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Programming_Assignment4" generation="1" functional="0" release="0" Id="d6dd6f40-c288-425b-aafb-c8faf9618b22" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="Programming_Assignment4Group" generation="1" functional="0" release="0">
       <componentports>
@@ -132,9 +132,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="3c4c7560-e956-4396-9298-c8371a530112" ref="Microsoft.RedDog.Contract\ServiceContract\Programming_Assignment4Contract@ServiceDefinition">
+    <implementation Id="39474ab5-6ee5-4c4b-8a04-20b12e1e64b6" ref="Microsoft.RedDog.Contract\ServiceContract\Programming_Assignment4Contract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="39a85ae4-e43e-4dfa-b0bf-834f5d4a573e" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="4292a287-482d-4b64-8e62-d4c3ac6c99e7" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/Programming_Assignment4/Programming_Assignment4Group/WebRole1:Endpoint1" />
           </inPort>

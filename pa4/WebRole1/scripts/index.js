@@ -126,7 +126,7 @@
                 if (data.d !== null && data.d[0] !== null && data.d.length >= 1) {
                     jQuery.each(data.d, function (i, val) {
                         if ($.inArray(data.d[i][0], uniqueResults) === -1) {
-                            result += "<div><a href=" + data.d[i][i] + "><h3>" + data.d[i][0] + "</h3></a>";
+                            result += "<div><a href=" + data.d[i][1] + "><h3>" + data.d[i][0] + "</h3></a>";
                             result += "<p class= resultUrl>" + data.d[i][1] + "</p>";
                             result += "<p class= resultTime>" + data.d[i][2] + "</p><br /><br /></div>";
                             uniqueResults.push(data.d[i][0]);
